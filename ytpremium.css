@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+ 
+.container {
+    margin-bottom: auto;
+    background: linear-gradient(
+        135deg,
+        #f3e8ff,
+        #eef2ff,
+        #e9f2ff,
+        #ffffff
+    );
+
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    height:50px;
+    padding: 10px;
+    background-color: rgb(251, 248, 248);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navleft{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navcenter{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.mincen{
+    display: flex;
+}
+
+.navright{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#first{
+    height:40px;
+    width:30px;
+}
+#ylogo{
+    height:80px;
+    width:80px;
+}
+.navcenter>img{
+    height:30px;
+    width: 30px;
+}
+#search{
+    padding:12px;
+    border:1px solid rgb(128, 127, 127);
+  
+    height:40px;
+    width:50px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius:25px;
+}
+#mic{
+    padding:10px;
+    height:38px;
+    width:38px;
+    border:1px solid rgb(130, 128, 128);
+    border-radius:20px 20px 20px 20px;
+}
+.navright>img{
+    height:30px;
+    width: 30px;
+}
+
+input[type="text"]{
+    width: 500px;
+    height: 40px;
+    border-top-left-radius : 25px;
+    border-bottom-left-radius : 25px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.firstpage{
+    padding-top: 50px;
+    background:linear-gradient(rgb(106, 162, 247) white);
+    margin:100px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+
+
+    margin-bottom: 0;
+    height:61%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.ytdetails{
+    font-size:38px;
+}
+#firstbttn{
+    height:40px;
+    min-width:100px;
+    color:aliceblue;
+    border:none;
+    font-weight:bold;
+    font-size: 17px;
+
+    border-radius: 40px 40px 40px 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    
+    background: rgb(38, 113, 211);
+}
+.ytdesc{
+    font-size:larger;
+    justify-items: center;
+}
+.ytdesctwo{
+    font-size: 30px;
+}
+.blue{
+    font-size: large;
+    display:flex;
+    gap:3px;
+}
+.res{
+color:rgb(35, 91, 211);
+cursor:pointer ;
+}
+.som{
+    font-size: 70px;
+    font-weight: 800;
+}
+.scrolldown{
+    margin-left: 70px;
+    margin-right: 70px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    gap: 30px;
+}
+
+.box1{
+    width:23%;
+    min-height: 250px;
+    border-radius:20px 20px 20px 20px;
+    background-color:white;
+     box-shadow: 7px 7px 15px rgba(90, 89, 89, 0.1);
+    border:1px solid rgb(255, 255, 255);
+
+}
+#getpremium{
+     width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 24px;
+    background-color: #1a73e8;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+ 
+
+}
+.person{
+     display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+hr{
+    border:none;
+    border-top:1px solid #e0e0e0;
+    
+}
+.subtitle{
+    font-size: 14px;
+    color:rgb(91, 94, 94);
+}
+.rupee{
+    font-size: 20px;
+}
+.indi{
+    font-size: 24px;
+}
+
+.semibox{
+    padding:20px;
+}
+.premiumlite{
+    min-height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#save40{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.faq{
+    
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 16px 0;
+}
+
+details {
+  border-bottom: 1px solid #ddd;
+}
+
+
+@media screen and (min-height:320px) and (max-width: 480px) {
+   .container {
+    margin-bottom: auto;
+    background: linear-gradient(
+        135deg,
+        #f3e8ff,
+        #eef2ff,
+        #e9f2ff,
+        #ffffff
+    );
+    height: 2200px;
+    width: 1500px;
+    
+}
+}
+
+@media screen and (min-width:481px) and (max-width: 768px) {
+    .container {
+    margin-bottom: auto;
+    background: linear-gradient(
+        135deg,
+        #f3e8ff,
+        #eef2ff,
+        #e9f2ff,
+        #ffffff
+    );
+    height: 2000px;
+    width: 800px;
+    
+}
+.indi {
+    font-size: 20px;
+}
+}
